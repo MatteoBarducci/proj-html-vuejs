@@ -2,7 +2,7 @@
     import { store } from '../store';
 
     export default{
-        name: 'AppHeader',
+        name: 'PageHeader',
         data() {
             return{
                 store
