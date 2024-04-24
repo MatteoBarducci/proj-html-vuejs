@@ -39,7 +39,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 30px;
-    padding: 25px;
+    padding: 35px;
 
     img{
         height: 30px;

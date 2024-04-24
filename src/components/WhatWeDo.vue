@@ -11,6 +11,7 @@
         <h2>THIS IS WHAT WE DO</h2>
         <!-- Titolo sezione -->
 
+        <!-- CARDS -->
         <div class="row">
             <div class="col33">
                 <img src="../assets/image (14).svg">
@@ -43,6 +44,8 @@
                 <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit inventores</span>
             </div>
         </div>
+        <!-- CARDS -->
+
     </section>
 </template>
 
@@ -56,8 +59,12 @@
     margin-top: 100px;
     color: #666666;
 
+    span{
+        font-weight: bolder;
+    }
+
     h2{
-        margin: 30px 0 40px;
+        margin: 25px 0 40px;
         color: #111111;
     }
 
