@@ -36,7 +36,7 @@
 
 .bg{
     background-image: url('../assets/Parallax-03.jpg');
-    background-position: center;
+    background-position: bottom;
     height: 190px;
     width: calc(100% - 20px);
     margin: 0 10px 100px;

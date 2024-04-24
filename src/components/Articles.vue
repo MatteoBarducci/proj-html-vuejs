@@ -5,7 +5,7 @@
 </script>
 
 <template>
-        <section class="main-container">
+    <section class="main-container">
         <!-- Titolo sezione -->
         <span>LATEST NEWS</span>
         <h2>ARTICLES UPDATED DAILY</h2>

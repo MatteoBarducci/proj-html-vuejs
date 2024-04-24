@@ -7,6 +7,8 @@
     import Team from './Team.vue';
     import Reviews from './Reviews.vue';
     import Articles from './Articles.vue';
+    import Collabs from './Collabs.vue';
+
 
 
     export default{
@@ -20,6 +22,7 @@
             Team,
             Reviews,
             Articles,
+            Collabs,
             
         },
     }
@@ -34,6 +37,7 @@
     <Team></Team>
     <Reviews></Reviews>
     <Articles></Articles>
+    <Collabs></Collabs>
 </template>
 
 <style scoped lang="scss">
