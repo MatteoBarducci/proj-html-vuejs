@@ -8,6 +8,8 @@
     import Reviews from './Reviews.vue';
     import Articles from './Articles.vue';
     import Collabs from './Collabs.vue';
+    import Form from './Form.vue';
+
 
 
 
@@ -23,7 +25,7 @@
             Reviews,
             Articles,
             Collabs,
-            
+            Form,
         },
     }
 </script>
@@ -38,6 +40,7 @@
     <Reviews></Reviews>
     <Articles></Articles>
     <Collabs></Collabs>
+    <Form></Form>
 </template>
 
 <style scoped lang="scss">

@@ -24,7 +24,7 @@
     background-position: center;
     height: 280px;
     width: calc(100% - 20px);
-    margin: 0 10px 100px;
+    margin: 0 10px 80px;
 
     .main-container{
         display: flex;

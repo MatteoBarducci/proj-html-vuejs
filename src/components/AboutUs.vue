@@ -18,7 +18,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 </template>
@@ -27,16 +26,15 @@
 @use '../style/partials/variables.scss' as *;
 
 section{
-    margin-top: 80px;
-    padding: 0 10px;
-    height: 500px;
-    margin-bottom: 100px;
 
     .bg{
+        margin-top: 100px;
+        margin-bottom: 100px;
         background-image: url(../assets/About-Us.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
-        height: 100%;
+        width: calc(100% - 20px);
+        margin: 0 10px 100px;
+        height: 500px;
 
         .row{
             display: flex;
