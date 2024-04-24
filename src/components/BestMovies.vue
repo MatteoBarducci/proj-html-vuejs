@@ -53,9 +53,7 @@
 @use '../style/partials/variables.scss' as *;
 
 .main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-top: 100px;
     color: #666666;
     margin-bottom: 60px;
@@ -79,8 +77,7 @@
             text-align: center;
 
             img{
-                height: 250px;
-                width: 350px;
+                width: 355px;
                 margin: auto;
                 margin-bottom: 20px;
             }

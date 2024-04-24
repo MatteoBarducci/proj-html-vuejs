@@ -5,48 +5,41 @@
 </script>
 
 <template>
-    <section>
-        <div class="bg">
-            <div class="black-overlay">
-                <!-- Frecce -->
-                <div class="arrow left">
-                    <img src="../assets/left-arrow.svg">
-                </div>
-                <div class="arrow right">
-                    <img src="../assets/right-arrow.svg">
-                </div>
-                <!-- /Frecce -->
-    
-                <!-- Testo Jumbo -->
-                <div class="main-container">
-                    <span>CINEMATO STUDIO</span>
-                    <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
-                    <div>
-                        <button>READ MORE</button>
-                    </div>
-                    
-                </div>
-                <!-- /Testo Jumbo -->
+    <div class="bg">
+        <div class="black-overlay">
+            <!-- Frecce -->
+            <div class="arrow left">
+                <img src="../assets/left-arrow.svg">
             </div>
-
+            <div class="arrow right">
+                <img src="../assets/right-arrow.svg">
+            </div>
+            <!-- /Frecce -->
+    
+            <!-- Testo Jumbo -->
+            <div class="main-container">
+                <span>CINEMATO STUDIO</span>
+                <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
+                <div>
+                    <button>READ MORE</button>
+                </div>
+                    
+            </div>
+            <!-- /Testo Jumbo -->
         </div>
-    </section>
+
+    </div>
 </template>
 
 <style scoped lang="scss">
-@use '../style/partials/variables.scss' as *;
-
-section{
-    padding: 0 10px;
-    height: 650px;
-    
+@use '../style/partials/variables.scss' as *;    
     .bg{
-        background-image: url('../assets/Gallery-02.jpg');
+        background-image: url('../assets/blog06.jpg');
         background-size: cover;
-        width: 100%;
         height: 100%;
-        
-
+        width: calc(100% - 20px);
+        margin: 0 10px;
+        height: 650px;
         .black-overlay{
             width: 100%;
             height: 100%;
@@ -94,6 +87,4 @@ section{
             }
         }
     }
-}
-
 </style>

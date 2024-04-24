@@ -40,3 +40,11 @@ h2{
 .col50{
     width: 50%;
 }
+
+.col25{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    text-align: center;
+}

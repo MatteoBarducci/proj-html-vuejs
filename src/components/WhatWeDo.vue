@@ -53,9 +53,7 @@
 @use '../style/partials/variables.scss' as *;
 
 .main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-top: 100px;
     color: #666666;
 

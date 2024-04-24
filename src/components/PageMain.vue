@@ -3,6 +3,10 @@
     import WhatWeDo from './WhatWeDo.vue';
     import AboutUs from './AboutUs.vue';
     import BestMovies from './BestMovies.vue';
+    import Numbers from './Numbers.vue';
+    import Team from './Team.vue';
+
+
 
 
 
@@ -15,6 +19,8 @@
             WhatWeDo,
             AboutUs,
             BestMovies,
+            Numbers,
+            Team
             
         },
     }
@@ -25,6 +31,8 @@
     <WhatWeDo></WhatWeDo>
     <AboutUs></AboutUs>
     <BestMovies></BestMovies>
+    <Numbers></Numbers>
+    <Team></Team>
 </template>
 
 <style scoped lang="scss">
