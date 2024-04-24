@@ -61,6 +61,7 @@
 
     span{
         font-weight: bolder;
+        font-size: 14px;
     }
 
     h2{
@@ -69,23 +70,21 @@
     }
 
     .row{
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
 
         .col33{
-            width: 30%;
             margin-bottom: 45px;
             text-align: center;
 
             img{
                 height: 75px;
                 margin: auto;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
 
             h4{
-                margin-bottom: 25px;
+                margin-bottom: 15px;
                 color: #111111;
             }
         }

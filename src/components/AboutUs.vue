@@ -30,6 +30,7 @@ section{
     margin-top: 80px;
     padding: 0 10px;
     height: 500px;
+    margin-bottom: 100px;
 
     .bg{
         background-image: url(../assets/About-Us.jpg);
@@ -45,7 +46,6 @@ section{
             padding: 0 200px;
 
             .col50{
-                width: 50%;
                 color: white;
                 display: flex;
                 flex-direction: column;
