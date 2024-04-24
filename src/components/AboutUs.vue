@@ -64,6 +64,7 @@ section{
                     font-size: 14px;
                     font-weight: 500;
                     margin-bottom: 38px;
+                    line-height: 2;
                 }
             }
         }

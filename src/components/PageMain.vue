@@ -5,12 +5,7 @@
     import BestMovies from './BestMovies.vue';
     import Numbers from './Numbers.vue';
     import Team from './Team.vue';
-
-
-
-
-
-
+    import Reviews from './Reviews.vue';
 
     export default{
         name: 'PageMain',
@@ -20,7 +15,8 @@
             AboutUs,
             BestMovies,
             Numbers,
-            Team
+            Team,
+            Reviews,
             
         },
     }
@@ -33,6 +29,7 @@
     <BestMovies></BestMovies>
     <Numbers></Numbers>
     <Team></Team>
+    <Reviews></Reviews>
 </template>
 
 <style scoped lang="scss">
