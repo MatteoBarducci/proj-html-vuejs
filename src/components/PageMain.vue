@@ -6,6 +6,8 @@
     import Numbers from './Numbers.vue';
     import Team from './Team.vue';
     import Reviews from './Reviews.vue';
+    import Articles from './Articles.vue';
+
 
     export default{
         name: 'PageMain',
@@ -17,6 +19,7 @@
             Numbers,
             Team,
             Reviews,
+            Articles,
             
         },
     }
@@ -30,6 +33,7 @@
     <Numbers></Numbers>
     <Team></Team>
     <Reviews></Reviews>
+    <Articles></Articles>
 </template>
 
 <style scoped lang="scss">
