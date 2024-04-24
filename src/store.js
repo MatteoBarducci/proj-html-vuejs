@@ -48,6 +48,50 @@ export const store = reactive({
             icon: 'fa-instagram',
             link: 'https://instagram.com/'
         },
+    ],
+    footerInformation:[
+        {
+            text: 'Product Support',
+            link: '#'
+        },
+        {
+            text: 'Checkout',
+            link: '#'
+        },
+        {
+            text: 'Report Abuse',
+            link: '#'
+        },
+        {
+            text: 'Redeem Voucher',
+            link: '#'
+        },
+        {
+            text: 'Order Status',
+            link: '#'
+        },
+    ],
+    footerUsefulLinks:[
+        {
+            text: 'Policies & Rules',
+            link: '#'
+        },
+        {
+            text: 'Privacy Policy',
+            link: '#'
+        },
+        {
+            text: 'License Policy',
+            link: '#'
+        },
+        {
+            text: 'My Account',
+            link: '#'
+        },
+        {
+            text: 'Locality',
+            link: '#'
+        },
     ]
 
 });
