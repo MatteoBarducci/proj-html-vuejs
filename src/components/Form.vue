@@ -15,10 +15,18 @@
 
             <div class="col50">
                 <div class="input-row">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <input type="text" placeholder="Mobile Number">
-                    <input type="text" placeholder="Your Pincode">
+                    <div>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Mobile Number">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Your Pincode">
+                    </div>
                 </div>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
                 <button>SUBMIT NOW</button>
@@ -44,10 +52,15 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                
 
-                input{
+                div{
                     width: calc(50% - 20px);
                     margin-bottom: 30px;
+
+                    input{
+                        width: 100%;
+                    }
                 }
             }
 
