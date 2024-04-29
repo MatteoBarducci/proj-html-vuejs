@@ -50,7 +50,6 @@ header{
     align-items: center;
     height: 30px;
     padding: 35px;
-    background-color: white;
 
     img{
         height: 30px;
@@ -85,7 +84,7 @@ header{
         position: absolute;
         top: 45px;
         left: -50px;
-        display: block;
+        display: none;
         background-color: #0F0F0F;
         
         li {
