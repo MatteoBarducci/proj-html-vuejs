@@ -11,8 +11,22 @@ export const store = reactive({
             link: '#'
         },
         {
-            text: 'PAGES ⌄',
-            link: '#'
+            text: 'PAGES',
+            link: '#',
+            children: [
+                {
+                    link: '#service1',
+                    name: 'SERVICE'
+                },
+                {
+                    link: '#service2',
+                    name: 'OUR WORK FLOW'
+                },
+                {
+                    link: '#service3',
+                    name: 'VIDEO THUMBNAIL TYPE'
+                },
+            ]
         },
         {
             text: 'ABOUT',
@@ -27,8 +41,22 @@ export const store = reactive({
             link: '#'
         },
         {
-            text: 'SHOP ⌄',
-            link: '#'
+            text: 'SHOP',
+            link: '#',
+            children: [
+                {
+                    link: '#service1',
+                    name: 'SERVICE'
+                },
+                {
+                    link: '#service2',
+                    name: 'OUR WORK FLOW'
+                },
+                {
+                    link: '#service3',
+                    name: 'VIDEO THUMBNAIL TYPE'
+                },
+            ]
         },
     ],
     headerSocials:[
@@ -92,6 +120,6 @@ export const store = reactive({
             text: 'Locality',
             link: '#'
         },
-    ]
+    ],
 
 });

@@ -128,6 +128,11 @@ footer{
         text-align: center;
         margin-top: 12px;
     }
+
+    a:hover{
+        color: white;
+        font-weight: bolder;
+    }
 }
 
 </style>
